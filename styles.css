@@ -72,3 +72,19 @@ container {
 .circle.active {
     border-color: var(--line-border-fill);
 }
+
+.btn {
+  background-color: var(--line-border-fill);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 6px 20px;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
